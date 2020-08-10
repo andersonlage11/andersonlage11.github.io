@@ -178,9 +178,12 @@ footer{
         width: 15%;
     }
     #titulo{
-        margin-top: 300px;
+        transform: translateY(90%);
     }
     #subtitulo{
-        transform: translateY(150px);
+        transform: translateY(90%);
+    }
+    #açao{
+        transform: translateY(90%);
     }
 }
