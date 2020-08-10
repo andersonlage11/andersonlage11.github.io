@@ -184,6 +184,6 @@ footer{
         transform: translateY(90%);
     }
     #acao{
-        transform: translateY(90%);
+        padding-top: (90%);
     }
 }
