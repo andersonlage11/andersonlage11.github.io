@@ -177,4 +177,11 @@ footer{
     .rodape, .rodape2,.rodape3{
         width: 15%;
     }
+    #titulo{
+        transform: translateY(15px);
+
+    }
+    #subtitulo{
+        transform: translateY(15px);
+    }
 }
