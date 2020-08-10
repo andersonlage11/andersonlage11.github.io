@@ -18,7 +18,7 @@ background-size: cover;
 #subtitulo{
     color: white;
 }
-#açao{
+#acao{
     color: white;
     padding: 10px 20px 10px 20px;
     border: orangered solid 2px;
@@ -183,7 +183,7 @@ footer{
     #subtitulo{
         transform: translateY(90%);
     }
-    #açao{
+    #acao{
         transform: translateY(90%);
     }
 }
