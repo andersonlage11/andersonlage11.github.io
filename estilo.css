@@ -1,0 +1,180 @@
+html,body{
+    margin: 0em;
+}
+#imagem_fundo{
+background: url("imagens/Fundo.jpg");
+height: 100%;
+width: 102.3%;
+text-align: center;
+background-size: cover;
+}
+#titulo{
+    color: white;
+    padding-top: 13%;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 5vw;
+}
+#subtitulo{
+    color: white;
+}
+#açao{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: orangered solid 2px;
+}
+.icone{
+    width: 70%;
+    height:50%;
+}
+section{
+    padding: 15px;
+    float: left;
+}
+.destaque{
+    background-color: orangered;
+    width: 100%;
+}
+.imagem{
+    width: 100%;
+    height: 54%;
+}
+.coluna{
+    float: left;
+    padding: 0px 5%;
+    position: relative;
+    text-align: center;
+}
+.dois{
+    width: 40%;
+}
+.quatro{
+    width: 15%;
+}
+.tres{
+    width: 29.3%;
+    padding: 0px 2%;
+}
+.justificado{
+    text-align: justify
+}
+.centralizado{
+    text-align: center;
+    align-items: center;
+    font-size:  1.8vw;
+}
+#sobre{
+    width: 100%;
+}
+header{
+    background-color: black;
+    color:  white;
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+}
+#logo{
+    width: 240px;
+    height: 74px;
+    position: absolute;
+    top: 0px;
+    margin-left: 2%;
+}
+#menu{
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 0px;
+    font-size: 22px;;
+}
+li{
+    float: left;
+    padding:  27px 20px 27px 20px;
+    
+}
+li:hover{
+    background-color:orangered;
+}
+footer{
+    background-color:orangered;
+    float: left;
+    width: 102.5%;
+    height: 25%;
+    color: white;
+}
+.tamanho{
+    font-size: 18px;
+}
+#açao2{
+    color: black;
+    padding: 10px 20px 10px 20px;
+    background: url("imagens/18647.jpg");
+    background-size: contain;
+}
+#açao3{
+    color:whitesmoke;
+    padding: 10px 20px 10px 20px;
+    background-size: contain;
+    border: whitesmoke solid 2px;
+}
+.cor{
+    color: white;
+}
+.rodape{
+    width: 50%;
+    transform: translateY(-7%)
+}
+.rodape2{
+    text-align: center;
+    width: 30%; 
+    transform: translateY(20%);
+}
+.rodape3{
+    text-align: center;
+    width: 50%;
+    transform: translateY(30%);
+}
+#credito{
+    transform: translateY();
+    text-align: left;
+}
+
+@media all and (max-width:768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 100%;
+        padding: 0%;
+        margin: 0 auto;
+        float: none;
+    }
+    #logo_cel{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-54%);
+    }
+    .imagem{
+        width: 70%;
+        height: 60%;
+    }
+    #video{
+        width: 80%;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+        height: 40%;
+    }
+    .rodape, .rodape2,.rodape3{
+        width: 15%;
+    }
+}
