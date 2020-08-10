@@ -178,7 +178,7 @@ footer{
         width: 15%;
     }
     #titulo{
-        transform: translateY(15px);
+        transform: translateY(100px);
 
     }
     #subtitulo{
