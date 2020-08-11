@@ -4,7 +4,7 @@ html,body{
 #imagem_fundo{
 background: url("imagens/Fundo.jpg");
 height: 100%;
-width: 102.3%;
+width: 102.4%;
 text-align: center;
 background-size: cover;
 }
@@ -176,14 +176,5 @@ footer{
     }
     .rodape, .rodape2,.rodape3{
         width: 15%;
-    }
-    #titulo{
-        transform: translateY(90%);
-    }
-    #subtitulo{
-        transform: translateY(90%);
-    }
-    #acao{
-        transform: translateY(90%);
     }
 }
